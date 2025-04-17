@@ -27,19 +27,3 @@ updateList={props.updateList}
 
 
 
-{/* 
-import React, { useState } from 'react';
-
-export default function TaskList() {
-
-  const todoElements = props.todos.map(todo => (
-    <Todo key={todo.id} done={todo.done} desc={todo.desc} id={todo.id} />
-  ));
-
-  return (
-    <ul className="todo-list">
-      {todoElements}
-    </ul>
-  );
-}
-*/}
