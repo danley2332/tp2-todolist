@@ -1,0 +1,47 @@
+.todo-item {
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius:10px;
+  margin-bottom:10px;
+display:flex;
+  justify-content: space-between;
+align-items: center;
+}
+
+.todo-text {
+ font-size: 16px;
+color:#333
+}
+
+.todo-text.done {
+text-decoration:line-through;
+ color:#aaa
+}
+
+.todo-buttons {
+  display: flex;
+gap:8px;
+}
+
+.done-button,
+.delete-button {
+padding: 6px 10px;
+font-size:16px;
+border:none;
+border-radius: 6px;
+color:white;
+cursor:pointer;
+}
+
+.done-button {
+  background-color:#28a745
+}
+
+.done-button.undone {
+background-color:#f0ad4e;
+}
+
+.delete-button {
+ background-color: #dc3545
+}
+
